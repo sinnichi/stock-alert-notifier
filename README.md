@@ -31,6 +31,11 @@ EMAIL_PASSWORD=your_gmail_app_password
 python month_mail2_safe.py
 ```
 
+## ⛔ スクレイピングに関する注意
+- 本スクリプトはJPX公式サイトの公開情報を対象としたスクレイピングです。
+- robots.txtを遵守し、過剰なアクセスは行っていません。
+
+
 ## ライセンス
 
 MIT
