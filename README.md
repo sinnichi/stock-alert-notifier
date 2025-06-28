@@ -33,10 +33,9 @@
 pip install pandas yfinance requests python-dotenv
 
 ##実行例
+![株価通知の実行例](スクリーンショット 2025-06-28 225323.png)
 
-![スクリーンショット 2025-06-28 225351](https://github.com/user-attachments/assets/734608d9-4a26-47dd-acb4-0132647a0479)
-![スクリーンショット 2025-06-28 225323](https://github.com/user-attachments/assets/5753f12b-dd7e-4fe7-876a-b474474835aa)
-
+![株価通知の実行例](スクリーンショット 2025-06-28 225351.png)
 
 
 ##ファイル構成
