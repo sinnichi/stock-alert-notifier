@@ -33,13 +33,14 @@
 pip install pandas yfinance requests python-dotenv
 
 ##実行例
-![image](https://github.com/user-attachments/assets/63bf7530-5eb9-4211-b079-1700eca7ac22)
 
-![image](https://github.com/user-attachments/assets/2455ac13-0b55-4ac0-b73b-3687a8d3966b)
+![スクリーンショット 2025-06-28 225351](https://github.com/user-attachments/assets/734608d9-4a26-47dd-acb4-0132647a0479)
+![スクリーンショット 2025-06-28 225323](https://github.com/user-attachments/assets/5753f12b-dd7e-4fe7-876a-b474474835aa)
+
 
 
 ##ファイル構成
-├ month_mail2_safe.py
+├ stock-ipo-monitor.py
 ├ .env.example
 ├ README.md
 └ .gitignore
