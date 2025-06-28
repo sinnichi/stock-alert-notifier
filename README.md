@@ -36,7 +36,7 @@ pip install pandas yfinance requests python-dotenv
 
 以下は株価急変時のメール通知例です：
 
-![通知例](https://github.com/user-attachments/assets/21733d37-f8f3-4f16-a53a-af2e385d8d90)
+![通知例](https://github.com/sinnichi/stock-alert-notifier/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-06-28%20225323.png)
 
 
 ##ファイル構成
