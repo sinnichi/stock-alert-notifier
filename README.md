@@ -1,35 +1,51 @@
-# 株価変動＆IPO情報自動通知スクリプト（Python）
+# stock-alert-notifier
+
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+## 📌 Table of Contents
+- [概要](#概要)
+- [特徴](#特徴)
+- [使い方](#使い方)
+- [依存関係](#依存関係)
+- [実行例](#実行例)
+- [ファイル構成](#ファイル構成)
+- [注意事項](#注意事項)
+- [ライセンス](#ライセンス)
 
 ## 概要
-このスクリプトは、Pythonで構成された自動通知ツールです。
+株価の変動やIPO情報を監視して、条件に応じてGmailで通知するPythonスクリプト。
 
-- 株式インデックスやETFの価格変動を監視
-- 日本取引所グループ（JPX）から新規上場企業情報を取得
-- 条件を満たす場合、Gmailから自動で通知メールを送信
+## 特徴
+- ✅ yfinanceで主要インデックス監視  
+- ✅ JPXサイトからIPO情報をスクレイピング  
+- ✅ 一定以上の変動があれば通知  
+- ✅ Gmailの自動送信付き
 
-## 必要ライブラリ
+## 使い方
+1. リポジトリをクローン  
+2. `.env` を配置（`FROM_EMAIL`などを記入）  
+3. ライブラリをインストール  
+4. `python month_mail2_safe.py` を実行
 
+## 依存関係
 ```bash
 pip install pandas yfinance requests python-dotenv
-```
 
-## 実行前の準備
+##実行例
+![image](https://github.com/user-attachments/assets/63bf7530-5eb9-4211-b079-1700eca7ac22)
 
-1. `.env` ファイルを用意して、以下のように記入してください：
+![image](https://github.com/user-attachments/assets/2455ac13-0b55-4ac0-b73b-3687a8d3966b)
 
-```
-FROM_EMAIL=your_email@gmail.com
-TO_EMAIL=recipient_email@gmail.com
-EMAIL_PASSWORD=your_gmail_app_password
-```
 
-2. `.gitignore` に `.env` を追加し、GitHubに公開しないようにしてください。
+##ファイル構成
+├ month_mail2_safe.py
+├ .env.example
+├ README.md
+└ .gitignore
 
-## 実行方法
-
-```bash
-python month_mail2_safe.py
-```
+##注意
+.env ファイルは 公開しないでください
 
 ## ⛔ スクレイピングに関する注意
 - 本スクリプトはJPX公式サイトの公開情報を対象としたスクレイピングです。
