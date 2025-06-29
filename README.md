@@ -34,10 +34,7 @@ pip install pandas yfinance requests python-dotenv
 
 ## 📸 実行結果イメージ
 
-以下は株価急変時のメール通知例です：
-
-![通知例](images/result_1.png)
-
+株価急変時のメール通知例は、スクリーンショットを見てください
 
 ##ファイル構成
 ├ stock-ipo-monitor.py
